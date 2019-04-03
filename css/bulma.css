@@ -3019,6 +3019,7 @@ fieldset[disabled] .button {
 .textarea {
   background-color: white;
   border-color: #dbdbdb;
+  border-radius: 4px;
   color: #363636;
   box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
   max-width: 100%;
@@ -3357,6 +3358,7 @@ fieldset[disabled]
 .select select {
   background-color: white;
   border-color: #dbdbdb;
+  border-radius: 4px;
   color: #363636;
   cursor: pointer;
   display: block;
@@ -5849,8 +5851,8 @@ button.dropdown-item.is-active {
 }
 
 .list-item:last-child {
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
 }
 
 .list-item:not(:last-child) {
